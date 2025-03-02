@@ -8,7 +8,7 @@ function Home() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      <h1>Joel George Sam</h1>
+      <h1>JOEL GEORGE SAM</h1>
       <p>Frontend Developer | Full Stack Enthusiast</p>
       <p>Welcome to my portfolio! Here, you can explore my projects, experience, and skills.</p>
     </motion.div>
