@@ -27,7 +27,7 @@ function App() {
             <NavLink to="/contact">Contact</NavLink>
           </div>
           <button onClick={() => setDarkMode(!darkMode)} className="theme-toggle">
-            {darkMode ? <FaSun /> : <FaMoon />}
+            {darkMode ? <FaSun className="toggle-icon" /> : <FaMoon className="toggle-icon" />}
           </button>
         </nav>
         <Routes>

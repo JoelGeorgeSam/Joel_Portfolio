@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* styles.css */
+
+:root {
+  --card-bg-color: #ffffff;
+  --card-border-color: #dddddd;
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+}
+
+/* Dark mode variables */
+body.dark {
+  --card-bg-color: #333333;
+  --card-border-color: #444444;
+  --primary-color: #66b2ff;
+  --secondary-color: #aaaaaa;
+}
+
