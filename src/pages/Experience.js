@@ -14,7 +14,7 @@ function Experience() {
         <div className="experience-item">
           <h2>Kaar Tech</h2>
           <p className="role">Student Software Developer</p>
-          <p className="duration">Jan 2023 - Jul 2023</p>
+          <p className="duration">Jan 2023 - Jul 2024</p>
        
           <p>
             Developed a sales forecasting application utilizing machine learning algorithms, leading to enhanced business insights and optimized inventory management.
