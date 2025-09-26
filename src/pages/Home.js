@@ -3,6 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import profilePic from "../assets/profile-pic.png";
 
+
 function Home() {
   return (
     <motion.div
@@ -16,7 +17,7 @@ function Home() {
         <img src={profilePic} alt="My Portrait" className="profile-pic" />
         <h1 className="name">Joel George Sam</h1>
         <h2 className="typing-text">
-           <Typewriter words={[ "Full Stack Developer", "AI Enthusiast"]} loop={true} cursor />
+           <Typewriter words={[ "Full Stack Developer", "AI Enthusiast", "Data Analyst"]} loop={true} cursor />
         </h2>
         <p className="description">
           Passionate about building modern, scalable, and elegant web applications with cutting-edge technologies.
