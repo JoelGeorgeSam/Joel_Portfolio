@@ -24,6 +24,18 @@ function Experience() {
 </ul>          
         </div>
 
+<div className="experience-item">
+          <h2>Lakecrest Independent School, St. John's, NL</h2>
+          <p className="role">IT Administrator</p>
+          <p className="duration">Jun 2025 - Present</p>
+       
+         <ul style={{ lineHeight: 1.8, marginBottom: 24 }}>
+  <li>Design and maintain the school’s website and mobile application.</li>
+  <li>Mentor and guide students in programming and problem-solving.</li>
+  <li>Provide technical support to students and staff, resolving day-to-day IT and system issues.</li>
+</ul>
+
+        </div>
         <div className="experience-item">
           <h2>Lakecrest Independent School, St. John's, NL</h2>
           <p className="role">IT Administrator</p>
