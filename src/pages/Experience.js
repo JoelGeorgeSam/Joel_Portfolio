@@ -25,14 +25,18 @@ function Experience() {
         </div>
 
 <div className="experience-item">
-          <h2>Lakecrest Independent School, St. John's, NL</h2>
-          <p className="role">IT Administrator</p>
-          <p className="duration">Jun 2025 - Present</p>
+          <h2>DeepSense, Halifax, NS</h2>
+          <p className="role">Machine Learning Engineer</p>
+          <p className="duration">Jan 2026 - Present</p>
        
          <ul style={{ lineHeight: 1.8, marginBottom: 24 }}>
-  <li>Design and maintain the school’s website and mobile application.</li>
-  <li>Mentor and guide students in programming and problem-solving.</li>
-  <li>Provide technical support to students and staff, resolving day-to-day IT and system issues.</li>
+  <li>Developed and optimized AI-based coastal vegetation and shoreline extraction pipelines using Sentinel-2 and PlanetScope satellite imagery for automated coastal erosion monitoring in the Municipality of the District of Lunenburg, Nova Scotia.
+
+</li>
+  <li>Trained and validated machine learning segmentation models using labeled coastal features and integrated reference-line guided refinement techniques to improve shoreline accuracy under complex Nova Scotia coastal conditions.</li>
+  <li>Built scalable geospatial data processing workflows for multi-year shoreline change analysis, comparing AI-derived coastlines against LiDAR and survey-based ground truth data to support property-level coastal risk assessment and municipal decision-making</li>
+    <li>Worked on deploying and dockerizing the retrained models for production use.</li>
+
 </ul>
 
         </div>
