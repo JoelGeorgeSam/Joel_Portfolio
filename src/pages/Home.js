@@ -17,11 +17,10 @@ function Home() {
         <img src={profilePic} alt="My Portrait" className="profile-pic" />
         <h1 className="name">Joel George Sam</h1>
         <h2 className="typing-text">
-           <Typewriter words={[ "Full Stack Developer", "AI Enthusiast", "Data Analyst"]} loop={true} cursor />
+           <Typewriter words={[ "ML Engineer", "Full Stack Developer", "Data Scientist"]} loop={true} cursor />
         </h2>
         <p className="description">
-          Passionate about building modern, scalable, and elegant web applications with cutting-edge technologies.
-        </p>
+          Passionate about building Machine Learning and Data Science solutions to solve real-world problems. Experienced in developing AI-based pipelines and software applications. Always eager to learn and take on new challenges.
         <div className="social-links">
           <a href="https://github.com/joelgeorgesam" target="_blank" rel="noopener noreferrer">
             <FaGithub className="social-icon" />
