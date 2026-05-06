@@ -20,7 +20,8 @@ function Home() {
            <Typewriter words={[ "ML Engineer", "Full Stack Developer", "Data Scientist"]} loop={true} cursor />
         </h2>
         <p className="description">
-          Passionate about building Machine Learning and Data Science solutions to solve real-world problems. Experienced in developing AI-based pipelines and software applications. Always eager to learn and take on new challenges.
+        Passionate about building Machine Learning and Data Science solutions to solve real-world problems. Experienced in developing AI-based pipelines and software applications. Always eager to learn and take on new challenges.
+        </p>
         <div className="social-links">
           <a href="https://github.com/joelgeorgesam" target="_blank" rel="noopener noreferrer">
             <FaGithub className="social-icon" />
