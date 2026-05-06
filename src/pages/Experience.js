@@ -11,19 +11,6 @@ function Experience() {
     >
       <h1>Experience</h1>
 
-<div className="experience-container">
-        <div className="experience-item">
-          <h2>Memorial University of Newfoundland, St. John's, NL</h2>
-          <p className="role">Teaching Assistant</p>
-          <p className="duration">Sep 2025 - Present</p>
-       
-       <ul style={{ lineHeight: 1.8, marginBottom: 24 }}>
-  <li> TA for Object Oriented Programming (COMP 2001) and TA for Computing Systems (COMP 1003) </li>
-  <li>Assist students with core programming concepts, object-oriented design, and debugging practices.</li>
-  <li>Support student learning in operating systems and distributed systems by explaining concepts, reviewing coursework, and leading lab/tutorial sessions.</li>
-</ul>          
-        </div>
-
 <div className="experience-item">
           <h2>DeepSense, Halifax, NS</h2>
           <p className="role">Machine Learning Engineer</p>
@@ -39,7 +26,22 @@ function Experience() {
 
 </ul>
 
+        </div>      
+
+<div className="experience-container">
+        <div className="experience-item">
+          <h2>Memorial University of Newfoundland, St. John's, NL</h2>
+          <p className="role">Teaching Assistant</p>
+          <p className="duration">Sep 2025 - Present</p>
+       
+       <ul style={{ lineHeight: 1.8, marginBottom: 24 }}>
+  <li> TA for Object Oriented Programming (COMP 2001) and TA for Computing Systems (COMP 1003) </li>
+  <li>Assist students with core programming concepts, object-oriented design, and debugging practices.</li>
+  <li>Support student learning in operating systems and distributed systems by explaining concepts, reviewing coursework, and leading lab/tutorial sessions.</li>
+</ul>          
         </div>
+
+
         <div className="experience-item">
           <h2>Lakecrest Independent School, St. John's, NL</h2>
           <p className="role">IT Administrator</p>
