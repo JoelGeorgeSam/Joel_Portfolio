@@ -61,8 +61,7 @@ function Experience() {
       transition={{ duration: 0.6 }}
     >
       <header className="experience-header">
-        <p className="experience-eyebrow">Career journey</p>
-        <h1>Experience</h1>
+        <h1>Career Journey</h1>
         <p className="experience-intro">
           A quick look at the teams and environments where I have built,
           learned, and contributed.
