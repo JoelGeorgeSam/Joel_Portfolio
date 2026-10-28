@@ -13,7 +13,7 @@ const experiences = [
     company: "DeepSense",
     location: "Halifax, NS",
     role: "Machine Learning Engineer",
-    duration: "Jan 2026 – Present",
+    duration: "Jan 2026 – May 2026",
     summary:
       "Worked on computer-vision and geospatial machine-learning systems that support automated coastal monitoring and shoreline analysis.",
   },
