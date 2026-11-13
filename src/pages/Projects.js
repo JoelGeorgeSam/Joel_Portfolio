@@ -16,17 +16,68 @@ const categories = ["All", "Frontend", "Full Stack", "AI/ML"];
 
 const projects = [
   {
-    title: "TaskHero",
+    title: "Second Entry",
+    category: "AI/ML",
+    image:
+      "https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description: [
+      "ML-assisted financial platform combining anomaly detection and automated reconciliation.",
+      "Designed to preserve human oversight while supporting reliable, reviewable inference.",
+    ],
+  },
+  {
+    title: "ThineBook",
     category: "AI/ML",
     image:
       "https://images.pexels.com/photos/4476376/pexels-photo-4476376.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: [
-      "AI-powered task manager.",
-      "Smart prioritization and real-time updates.",
-      "Customizable categories with authentication.",
+      "Full-stack planner with manual customization and NLP-based editing through natural-language instructions.",
+      "Integrated the OpenAI API to convert instructions into structured, schema-validated planner updates.",
+      <>
+        Live product:{" "}
+        <a
+          href="https://thine-book.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: THEME.border, fontWeight: 700 }}
+        >
+          View here
+        </a>
+      </>,
     ],
   },
-   {
+  {
+    title: "Skin Cancer Classification System",
+    category: "AI/ML",
+    image:
+      "https://images.pexels.com/photos/8384513/pexels-photo-8384513.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description: [
+      "Multimodal computer-vision research combining deep-learning image features with patient-history data.",
+      "Co-authored a published paper reporting 95% classification accuracy.",
+      <>
+        Published Research Paper:{" "}
+        <a
+          href="https://pubs.aip.org/aip/acp/article/3279/1/020111/3341731/A-deep-learning-approach-for-skin-cancer"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: THEME.border, fontWeight: 700 }}
+        >
+          Read here
+        </a>
+      </>,
+    ],
+  },
+  {
+    title: "ML-Based Low-Rate DDoS Detection System",
+    category: "AI/ML",
+    image:
+      "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=600",
+    description: [
+      "Built Python preprocessing pipelines with Scapy and Wireshark to extract network-traffic features from PCAP datasets.",
+      "Trained and evaluated KNN, Random Forest, and SVM models for low-rate DDoS detection and classification.",
+    ],
+  },
+  {
     title: "E-Commerce Application",
     category: "Full Stack",
     image:
@@ -49,27 +100,6 @@ const projects = [
     ],
   },
   {
-    title: "Skin Cancer Classification System",
-    category: "AI/ML",
-    image:
-      "https://images.pexels.com/photos/8384513/pexels-photo-8384513.jpeg?auto=compress&cs=tinysrgb&w=600",
-    description: [
-      "CNN-based skin lesion analysis and predictive reports for early detection.",
-      "ReactJS-based front end for user-friendly interaction.",
-      <>
-        Published Research Paper:{" "}
-        <a
-          href="https://pubs.aip.org/aip/acp/article/3279/1/020111/3341731/A-deep-learning-approach-for-skin-cancer"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ color: THEME.border, fontWeight: 700 }}
-        >
-          Read here
-        </a>
-      </>,
-    ],
-  },
-  {
     title: "Real Estate Market Place",
     category: "Frontend" ,
     image:
@@ -89,17 +119,6 @@ const projects = [
       "Secure online exam platform.",
       "Auto-grading and real-time analytics.",
       "Role-based access control.",
-    ],
-  },
-  {
-    title: "Event Management System",
-    category: "Full Stack",
-    image:
-      "https://images.pexels.com/photos/811572/pexels-photo-811572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    description: [
-      "Schedule and manage events.",
-      "Automated reminders and RSVP tracking.",
-      "Built with React and Firebase.",
     ],
   },
 ];

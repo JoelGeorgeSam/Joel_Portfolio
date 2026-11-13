@@ -4,7 +4,7 @@ const experiences = [
   {
     company: "C-CORE",
     location: "St. John's, NL",
-    role: "AI/ML Research Intern",
+    role: "AI/ML Researcher",
     duration: "Aug 2026 – Present",
     summary:
       "Contributing to applied AI research for maritime intelligence by helping develop reliable machine-learning workflows across satellite, AIS, and RF data.",
@@ -28,7 +28,7 @@ const experiences = [
   {
     company: "Lakecrest Independent School",
     location: "St. John's, NL",
-    role: "IT Administrator",
+    role: "IT Head",
     duration: "Jun 2025 – Aug 2026",
     summary:
       "Supported the school's digital operations through web and app work, day-to-day technology support, and student mentoring.",
