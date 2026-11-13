@@ -23,6 +23,17 @@ const projects = [
     description: [
       "ML-assisted financial platform combining anomaly detection and automated reconciliation.",
       "Designed to preserve human oversight while supporting reliable, reviewable inference.",
+      <>
+        Live product:{" "}
+        <a
+          href="https://the-second-entry.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: THEME.border, fontWeight: 700 }}
+        >
+          View here
+        </a>
+      </>,
     ],
   },
   {
